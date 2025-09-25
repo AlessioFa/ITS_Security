@@ -1,3 +1,14 @@
+"""
+-- Summary of this exrcise --
+
+1. Take a phrase.
+2. Convert each character into its ASCII code.
+3. Apply XOR with a fixed number (57 in this case). This is the 4. encryption step.
+5. Apply XOR with the same number again to decrypt.
+6. Convert the ASCII codes back into characters.
+7. Join the characters to rebuild the original phrase.
+"""
+
 phrase: str = "Nel mezzo del cammin di nostra vita"
 
 # Step 1: Convert each character to its ASCII code
