@@ -1,0 +1,4 @@
+# Ignore the virtual environment
+/flask_env
+# Ignore archives
+.tar.gz
